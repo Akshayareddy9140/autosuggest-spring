@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-color: rgb(237, 220, 220);
 }
     
     
@@ -12,9 +13,39 @@ h1{
     border-color: gray;
     padding: 20px;
     text-align: center;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
 .navbar a{
     padding: 20px;
     text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.navbar a:hover{
+    color: rebeccapurple;
+    background-color: rgb(184, 235, 235);
+}
+.card{
+    border:1px solid black;
+    width: 350px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 70px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    background-color: rgb(249, 232, 200);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card img{
+    width: 100%;
+}
+.card button{
+    border-style:none;
+    padding: 10px;
+    width: 80%;
+    border-radius: 8px;
+    font-size: 16px;
 }
