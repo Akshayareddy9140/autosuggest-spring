@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .gear{
+            position: fixed;
+            top: 20px;
+            left: 20px;
+        }
+        .pill{
+            position: fixed;
+            top: 20px;
+            right: 20px;
+        }
+        .logo{
+            margin-top: 150px;
+        
+        }
+        .logofirst{
+            color: blueviolet;
+        }
+        .para{
+            color: gray;
+        }
+        .search-box{
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 30px;
+            border-radius: 30px;
+            width: 250px;
+           
+        }
+        .lens{
+            position: relative;
+            left:30px;
+        }
+        .search-suggestion{
+            width:250px;
+            margin: 8px 0 0;
+            border-radius: 16px;
+            text-align: left;
+            margin:0px auto;
+            overflow:hidden;
+        }
+        .suggestion{
+            padding:10px 14px;
+            border-bottom: 1px solid #f2f2f2;
+            font-size: 14px;
+
+        }
+
+    </style>
+</head>
+<body>
+       <span class="gear"> &#9881;</span>
+       <span class="pill"> &#8226; online|&#128269;-ms </span>
+    <h1 class="logo">
+        <span class="logofirst"> Being</span>Infinity</h1>
+       <p class="para">One million phrases.Four algorithms.Prefix Based Auto Suggest</p>
+       <span class="lens">&#128269;</span>
+       <input class="search-box" type="text"
+             placeholder="Start typing to search phrases.." >
+        <div class="search-suggestion">
+          <!-- <div class="suggestion">Data Science</div>
+          <div class="suggestion">Cyber Security</div>
+          <div class="suggestion">Computer Science</div> -->
+        </div>
+        <script>
+            function getSearchSuggestions(){
+                var searcheBox=document.getElementByClassName("search-box");
+                var searcheBox=document.getElementByClassName("search-suggestions");
+                
+
+            }
+        </script>
+</body>
+</html>
